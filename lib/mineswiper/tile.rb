@@ -16,7 +16,7 @@ module Mineswiper
     end
 
     def bomb?
-      @bomb
+      @bomb == true
     end
 
     def flagged?
@@ -31,21 +31,13 @@ module Mineswiper
       flag = false
     end
 
-    def to_s_god
-      if bomb
-        'B'
-      else
-        adj_bombs.to_s
-      end
-    end
-
     def tilerender
       if flagged?
         return "\u2691".encode('utf-8')
       elsif @hidden
         return "\u25A0".encode('utf-8')
-      elsif bomb? == true
-        return "\n2688".encode('utf-8')
+      elsif bomb?
+        return "\u2622".encode('utf-8')
       else
         return self.adj_bombs.to_s
       end
