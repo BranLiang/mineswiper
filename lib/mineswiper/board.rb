@@ -136,15 +136,6 @@ module Mineswiper
       end
     end
 
-    # def grab_hidden_tiles(positions)
-    #   hidden_neighbours = []
-    #   positions.each do |pos|
-    #     row, col = pos
-    #     hidden_neighbours << grid[row][col] if grid[row][col].hidden
-    #   end
-    #   hidden_neighbours
-    # end
-
     def in_bounds?(pos)
       pos.all? { |x| x.between?(0, SIZE-1) }
     end
