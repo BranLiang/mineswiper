@@ -1,8 +1,5 @@
 module Mineswiper
-
-  class Player
-
-
+  class Cell
+    
   end
-
 end
