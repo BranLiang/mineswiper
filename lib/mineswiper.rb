@@ -5,7 +5,6 @@ require_relative 'mineswiper/player'
 require_relative 'mineswiper/display'
 require 'colorize'
 require 'io/console'
-require 'pry-byebug'
 
 module Mineswiper
   class Game

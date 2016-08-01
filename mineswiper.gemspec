@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["lby89757@hotmail.com"]
 
   spec.summary       = %q{Command line version Minesweeper game. Original author: https://github.com/ndevvy/minesweeper}
-  spec.description   = %q{require 'mineswiper'}
   spec.homepage      = "http://www.liangboyuan.pub"
   spec.license       = "MIT"
 
