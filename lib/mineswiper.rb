@@ -44,6 +44,3 @@ module Mineswiper
 
   end
 end
-
-new_game = Mineswiper::Game.new
-new_game.play
