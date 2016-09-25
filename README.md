@@ -31,6 +31,3 @@ new_game.play
 
 control the movement using W-A-S-D, Space to click, and f to put the flag.
 
-## Credit
-
-[ndevvy](https://github.com/ndevvy/minesweeper)
